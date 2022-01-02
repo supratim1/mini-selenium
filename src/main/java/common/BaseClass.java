@@ -22,6 +22,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
+import java.util.Properties;
+
 
 import com.pom.utilities.ReadConfig;
 
@@ -36,6 +38,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	
 	public static Logger logger;
+	
 	
 	@Parameters("browser")
 	

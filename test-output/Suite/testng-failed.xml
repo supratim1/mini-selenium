@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="2" name="Login_Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.pom.testCases.LoginTest">
+      <class name="com.pom.testCases.AdminUserTest">
         <methods>
-          <include name="Test2"/>
+          <include name="checkUserStatus"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.pom.testCases.LoginTest -->
+      </class> <!-- com.pom.testCases.AdminUserTest -->
     </classes>
-  </test> <!-- Login_Test(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

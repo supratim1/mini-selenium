@@ -10,6 +10,7 @@
       <class name="com.pom.testCases.LoginTest">
         <methods>
           <include name="Test2"/>
+          <include name="Test1"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
